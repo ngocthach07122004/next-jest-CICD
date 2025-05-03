@@ -9,5 +9,8 @@ export async function generateMetadata({ params }: Params) {
 }
 
 export default function Page({ params }: Params) {
-  return <><h1>Slug: {params.slug}</h1> <p>NgocThach</p></>;
+  return <><h1>Slug: {params.slug}</h1> 
+  <p>NgocThach</p>
+  <p>Hello NextJs</p>
+  </>;
 }
